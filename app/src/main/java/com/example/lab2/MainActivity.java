@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     int computer = (int)(Math.random()*3);
                     if(computer==0)
                         tv_cmora.setText("電腦出拳\n剪刀");
-                    else if(computer==0)
+                    else if(computer==1)
                         tv_cmora.setText("電腦出拳\n石頭");
                     else
                         tv_cmora.setText("電腦出拳\n布");
